@@ -1,37 +1,44 @@
 NB: You might find useful the [sample proposal](http://github.com/zamfi/ucb-jacobs-creative-programming-electronics-spring-2018/blob/master/hw/sample-proposal.md) useful in completing this assignment!
 
-# Your Project Title Here
+# Arduino Drink Mixer
 
-One-sentence summary of your project goes here. Then, make sure you have each of these sections completed:
+Our project is an automatic drink mixer that can be operated with the press of 3 buttons.
 
 ## Team
 
-A list of your team members here.
+John Sha, Jerome Wang, Natya Admira Dharmosetio, Cole Triebold
 
 ## Summary
 
-Here, write a paragraph or two describing what you built for your final project and what was challenging. 
-
-Include a discussion how it will be interactive or responsive to the environment.
+We set out to create the finest drink mixer ever seen in Des Inv 23. Our goal was to create fine mixed drinks using simple arduino components. We created a menu of ten drinks, which the user can choose by pressing 3 buttons in different sequences. After the input is placed, our mixer rotates a cup using a lazy-susan system. Once it reaches the first position, the parasaltic pump is activated and begins to dispense liquid. This process is repeated for each ingredient of the drink, until it is properly mixed. Each pre-set drink has a measured amount of each ingredient added. 
 
 ## Component Parts
 
-From what pieces did you build your project?
+- 6 Parasaltic Pumps
+- 4 1/4 inch wood sheets
+- 20 ft of 4mm tubing
+- Buttons
+- Arduino/breadboard/wires
+- Lazy Susan Ball Bearing
+- DC motor
+- 3D printed gear
+- 6 Bottles of beverages for mixing
 
-Include what types of inputs/outputs/data it will use, and a block diagram showing how all those pieces are connected.
+Inputs: 3 Button interface to input what beverage or beverage mixture is desired and how much to dispense (proportion of each liquid and total liquid volume). These will be routed through the Arduino board.
+
+Outputs: Different nozzles pouring different types of liquids into the cup to create the perfect beverage. We will need to optimize the mix levels to create the best drinks for a given volume.
 
 ## Challenges
 
-A brief discussion of what was hard, challenging, or unexpected about your project.
+The largest challenge we encountered was choosing how to dispense the liquids from the bottles into the cup. We messed around with many different concepts, but ended up going with parasaltic pumps. If we were to do this again, I would try and use a faster method of pumping the liquid. 
+
 
 ## Timeline
 
-What did you do in each of the past five weeks?
-
 - Week 1: Write proposal
-- Week 2: 
-- Week 3:
-- Week 4:
+- Week 2: Obtain all components, test methods of liquid dispensing, begin constructing the wood assembly
+- Week 3: Continue building assembly and work out pumping issues
+- Week 4: Work on electronics and hook up components
 - Week 5: Present!
 
 ## Completed Work
