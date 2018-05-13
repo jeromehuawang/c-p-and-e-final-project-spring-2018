@@ -43,6 +43,10 @@ The largest challenge we encountered was choosing how to dispense the liquids fr
 
 ## Completed Work
 
+![drink menu](img/drink-mixer-menu.png)
+
+![block diagram](img/block-diagram.png)
+
 Photos and videos of your completed final project!
 
 ## References and links
