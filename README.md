@@ -63,11 +63,11 @@ The largest challenge we encountered was choosing how to dispense the liquids fr
 
 ### Project Description
 
-[project discription](project-description.compressed.pdf)
+[Project Description](project-description.compressed.pdf)
 
 ### Arduino Control Code
 
-[code](drink_mixer_code.ino)
+[Source Code](drink_mixer_code.ino)
 
 ### Button-Code Reference
 
