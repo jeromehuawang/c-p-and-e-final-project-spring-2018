@@ -29,6 +29,7 @@ Inputs: 3 Button interface to input what beverage or beverage mixture is desired
 Outputs: Different nozzles pouring different types of liquids into the cup to create the perfect beverage. We will need to optimize the mix levels to create the best drinks for a given volume.
 
 ### Block Diagram
+
 ![Block Diagram](block-diagram.png)
 
 ## Challenges
@@ -47,24 +48,30 @@ The largest challenge we encountered was choosing how to dispense the liquids fr
 ## Completed Work
 
 ### Final Prototype
+
 ![Final Prototype](final.png)
 
 ### Hardware/Internals
+
 ![hardware](hardware.png)
 
 ### Drink Menu
+
 ![Drink Menu](drink-mixer-menu.png)
 
 ## References and links
 
 ### Project Description
-[project discription](project-description.compressed.pdf)
+
+![project discription](project-description.compressed.pdf)
 
 ### Arduino Control Code
-[code](drink_mixer_code.ino)
+
+![code](drink_mixer_code.ino)
 
 ### Button-Code Reference
-[button-code reference](button-integer.png)
+
+![button-code reference](button-integer.png)
 
 ### Servo Testing (with push-dispenser)
 ![Servo Testing With Push-Dispenser](servo-testing.jpg)
