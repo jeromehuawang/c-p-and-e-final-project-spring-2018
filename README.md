@@ -76,4 +76,7 @@ The largest challenge we encountered was choosing how to dispense the liquids fr
 ### Servo Testing (with push-dispenser)
 ![Servo Testing With Push-Dispenser](servo-testing.jpg)
 
+### Group Photo :sunglasses:
+![group photo](group-photo.jpg)
+
 Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
