@@ -43,13 +43,13 @@ The largest challenge we encountered was choosing how to dispense the liquids fr
 
 ## Completed Work
 
-![final pic](img/final-pic.jpg)
+![Final Prototype](final-pic.jpg)
 
-![drink menu](img/drink-mixer-menu.png)
+![Drink Menu](drink-mixer-menu.png)
 
-![block diagram](img/block-diagram.png)
+![Block Diagram](block-diagram.png)
 
-![servo testing](img/servo-testing.jpg)
+![Servo Testing With Push-Dispenser](servo-testing.jpg)
 
 Photos and videos of your completed final project!
 
