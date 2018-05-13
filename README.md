@@ -10,7 +10,7 @@ John Sha, Jerome Wang, Natya Admira Dharmosetio, Cole Triebold
 
 ## Summary
 
-We set out to create the finest drink mixer ever seen in Des Inv 23. Our goal was to create fine mixed drinks using simple arduino components. We created a menu of ten drinks, which the user can choose by pressing 3 buttons in different sequences. After the input is placed, our mixer rotates a cup using a lazy-susan system. Once it reaches the first position, the parasaltic pump is activated and begins to dispense liquid. This process is repeated for each ingredient of the drink, until it is properly mixed. Each pre-set drink has a measured amount of each ingredient added. 
+We set out to create the finest drink mixer ever seen in Des Inv 23. Our goal was to create fine mixed drinks using simple arduino components. We created a menu of ten drinks which the user can choose by pressing 3 buttons in different sequences. After the input is placed, our mixer rotates a cup using a lazy-susan system. Once it reaches the first position, the parasaltic pump is activated and begins to dispense liquid. After dispensing the first liquid, the cup will return back to its starting position and then begin rotating to its next position. This process is repeated for each ingredient of the drink until it is properly mixed. Each pre-set drink has a measured amount of each ingredient added. 
 
 ## Component Parts
 
@@ -28,9 +28,12 @@ Inputs: 3 Button interface to input what beverage or beverage mixture is desired
 
 Outputs: Different nozzles pouring different types of liquids into the cup to create the perfect beverage. We will need to optimize the mix levels to create the best drinks for a given volume.
 
+### Block Diagram
+![Block Diagram](block-diagram.png)
+
 ## Challenges
 
-The largest challenge we encountered was choosing how to dispense the liquids from the bottles into the cup. We messed around with many different concepts, but ended up going with parasaltic pumps. If we were to do this again, I would try and use a faster method of pumping the liquid. 
+The largest challenge we encountered was choosing how to dispense the liquids from the bottles into the cup. We first bought a cheap parasaltic pump and air valve from Amazon to test before committing to a dispensing method. After finding out that the parasaltic pumps were seemingly too slow for what we wanted (50 mL in a minute when supplied with 12V). We then decided to take a different approach and shifted from using a pump/motor to a liquid dispenser (which dispenses an exact mount of liquid when pushed up). However, this dispenser required quite a bit of force to actuate (the servos we had were rated to 11kg of torque and wasn't strong enough!). Coding the Arduino was also a bit of a challenge as we had to learn functions and use a library that none of us were familiar with. There was a lot of trial and error in calibrating the amount of liquid dispensed (time dependent) as well as getting the cup into the right position. If we were to do this again, we would like to use a faster method of pumping the liquid whether it be through a faster parasaltic pump or a bartending-liquid-dispenser coupled with a stronger servo. 
 
 
 ## Timeline
@@ -43,18 +46,27 @@ The largest challenge we encountered was choosing how to dispense the liquids fr
 
 ## Completed Work
 
-![Final Prototype](final-pic.jpg)
+### Final Prototype
+![Final Prototype](final.png)
 
+### Hardware/Internals
+![hardware](hardware.png)
+
+### Drink Menu
 ![Drink Menu](drink-mixer-menu.png)
-
-![Block Diagram](block-diagram.png)
-
-![Servo Testing With Push-Dispenser](servo-testing.jpg)
-
-Photos and videos of your completed final project!
 
 ## References and links
 
-**Include a link to your final showcase one-pager here in PDF format.**
+### Project Description
+[project discription](project-description.compressed.pdf)
+
+### Arduino Control Code
+[code](drink_mixer_code.ino)
+
+### Button-Code Reference
+[button-code reference](button-integer.png)
+
+### Servo Testing (with push-dispenser)
+![Servo Testing With Push-Dispenser](servo-testing.jpg)
 
 Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
