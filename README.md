@@ -79,4 +79,7 @@ The largest challenge we encountered was choosing how to dispense the liquids fr
 ### Group Photo :sunglasses:
 ![group photo](group-photo.jpg)
 
-Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
+### Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
+When deciding what to do for our project [this](https://www.youtube.com/watch?v=O1G38ERVCtg) was one of the initial videos we saw. We used the CAD files for the spin table from Tiffany Tseng's project called [Spin](http://spin.media.mit.edu). We also learned a lot of coding with buttons from this [Arduino Forum](http://spin.media.mit.edu) that led us to change our orginal idea of making a Buzzfeed Quiz to make a drink to making a stable menu. 
+
+One last comment was that we planned to use an LCD to give some feedback to the users, however, we found that so many of the users were mesmerized with the actual mechanics of our project. Having an LCD probably wouldn't have added any appeal and would distract the users.
